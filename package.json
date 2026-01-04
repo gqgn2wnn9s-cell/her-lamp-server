@@ -1,16 +1,11 @@
 {
   "name": "her-lamp-server",
   "version": "1.0.0",
-  "description": "Backend for Her Lamp",
   "main": "listener.js",
   "scripts": {
     "start": "node listener.js"
   },
   "dependencies": {
-    "express": "^4.19.2",
-    "body-parser": "^1.20.2",
-    "mqtt": "^5.14.1",
-    "twilio": "^5.11.1"
+    "express": "^4.19.2"
   }
 }
-
