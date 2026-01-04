@@ -1,19 +1,16 @@
 {
-  "name": "herlamp",
+  "name": "her-lamp-server",
   "version": "1.0.0",
-  "description": "Always-on WhatsApp controlled lamp backend",
+  "description": "Backend for Her Lamp",
   "main": "listener.js",
   "scripts": {
     "start": "node listener.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
   "dependencies": {
-    "body-parser": "^2.2.1",
-    "express": "^5.2.1",
+    "express": "^4.19.2",
+    "body-parser": "^1.20.2",
     "mqtt": "^5.14.1",
     "twilio": "^5.11.1"
   }
 }
+
